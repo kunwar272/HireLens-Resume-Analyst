@@ -73,9 +73,6 @@ Push to the branch (git push origin feature-branch)
 
 Open a Pull Request
 
-📜 License
-This project is licensed under the MIT License.
-
 👨‍💻 Author
 Raj Kunwar Chaubey
 
