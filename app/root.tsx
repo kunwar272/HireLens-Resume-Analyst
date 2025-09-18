@@ -9,8 +9,18 @@ import {
 
 import type { Route } from "./+types/root";
 import "./app.css";
-import {usePuterStore} from "~/lib/puter";
-import {useEffect} from "react";
+import { usePuterStore } from "~/lib/puter";
+import { useEffect } from "react";
+
+export function meta(): Route.MetaDescriptors {
+  return [
+    { title: "HireLens" }, 
+    {
+      name: "description",
+      content: "Smart AI-powered Resume Analyzer to improve your resumes",
+    },
+  ];
+}
 
 export const links: Route.LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -29,7 +39,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
   const { init } = usePuterStore();
 
   useEffect(() => {
-    init()
+    init();
   }, [init]);
 
   return (
@@ -37,7 +47,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <Meta />
+        <Meta /> {/* 👈 Yaha upar wala meta inject hoga */}
         <Links />
       </head>
       <body>
