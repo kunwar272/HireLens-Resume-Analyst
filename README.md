@@ -29,12 +29,12 @@ Clone the repository:
 
 git ```https://github.com/kunwar272/HireLens-Resume-Analyst/edit/main```
 
-```bash
 
 
 **Installation**
 
 Install the project dependencies using npm:
+
 
 ```bash
 npm install
