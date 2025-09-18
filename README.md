@@ -20,21 +20,13 @@
 Clone the repository:
 
 
-git clone (https://github.com/kunwar272/HireLens-Resume-Analyst/edit/main)
+git ```https://github.com/kunwar272/HireLens-Resume-Analyst/edit/main```
 
-bash
-cd ai-resume-analyzer
 Install dependencies:
-
-bash
-Copy code
-npm install
+```npm install```
 Start the development server:
-
-bash
-Copy code
-npm start
-Open your browser at http://localhost:3000 to view the app.
+```npm run dev```
+Open your browser at ```http://localhost:3000``` to view the app.
 
 🛠️ Tech Stack
 Frontend: React, TailwindCSS
