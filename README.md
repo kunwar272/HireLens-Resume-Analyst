@@ -30,9 +30,7 @@ Clone the repository:
 git ```https://github.com/kunwar272/HireLens-Resume-Analyst/edit/main```
 
 ```bash
-git clone https://github.com/adrianhajdin/ai-resume-analyzer.git
-cd ai-resume-analyzer
-```
+
 
 **Installation**
 
