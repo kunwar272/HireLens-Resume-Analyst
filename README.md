@@ -65,10 +65,4 @@ GitHub: @kunwar272
 LinkedIn: https://www.linkedin.com/in/raj-kunwar-chaubey-b5391135a/
 
 
-✅ **Instructions to use:**  
-1. Copy the above content into a new file named `README.md` in your project root.  
-2. Replace all placeholders:  
-   - `your-username` → your GitHub username  
-   - `https://your-live-demo-link.com` → your deployed app URL  
-   - Screenshots → replace with your actual image URLs  
-   - LinkedIn → your profile link  
+
