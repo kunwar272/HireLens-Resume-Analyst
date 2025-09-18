@@ -29,11 +29,25 @@ Clone the repository:
 
 git ```https://github.com/kunwar272/HireLens-Resume-Analyst/edit/main```
 
-Install dependencies:
-```npm install```
-Start the development server:
-```npm run dev```
-Open your browser at ```http://localhost:3000``` to view the app.
+```bash
+git clone https://github.com/adrianhajdin/ai-resume-analyzer.git
+cd ai-resume-analyzer
+```
+
+**Installation**
+
+Install the project dependencies using npm:
+
+```bash
+npm install
+```
+
+**Running the Project**
+
+```bash
+npm run dev
+```
+
 
 🛠️ Tech Stack
 Frontend: React, TailwindCSS
